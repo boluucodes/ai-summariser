@@ -1,13 +1,13 @@
 /*Color Theme */
 :root {
   --bg-color: #11434a;
-  --primary-color: #969696;
-  --secondary-color: #010101;
+  --primary-color: #888888;
+  --secondary-color: #0D0D0D;
   --text-color: #E0E0E0;
   --accent-color: #f9f9f9;
-  --error-color: #ff4d4d;
+  --error-color: #ff6460;
   --bot-message: #1e4620;
-  --user-message: #004d40;
+  --user-message: #548050;
 }
 
 * {
@@ -61,13 +61,13 @@ body {
 
 .messages::-webkit-scrollbar-thumb {
   background: var(--primary-color);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .message {
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 11px;
 }
 
 .message p {
@@ -104,7 +104,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  gap: 10px;
+  gap: 10.5px;
 }
 
 #answer {
